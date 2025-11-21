@@ -1,0 +1,46 @@
+body {
+  background: url("clih.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.booking-item {
+  background: #eee;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}

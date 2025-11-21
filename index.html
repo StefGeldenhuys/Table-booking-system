@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Table Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Restaurant Table Booking</h1>
+
+    <form id="bookingForm">
+      <label>Restaurant</label>
+      <select id="restaurant" required>
+        <option value="">Select restaurant</option>
+        <option value="Italian Bistro">Italian Bistro</option>
+        <option value="Ocean Grill">Ocean Grill</option>
+        <option value="Steak House">Steak House</option>
+      </select>
+
+      <label>Name</label>
+      <input type="text" id="name" required>
+
+      <label>Number of Guests</label>
+      <input type="number" id="guests" min="1" max="12" required>
+
+      <label>Date</label>
+      <input type="date" id="date" required>
+
+      <label>Time</label>
+      <input type="time" id="time" required>
+
+      <button type="submit">Book Table</button>
+    </form>
+
+    <h2>📋 Current Bookings</h2>
+    <div id="bookingsList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
